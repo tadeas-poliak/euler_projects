@@ -35,11 +35,6 @@ struct Vektor3
               }
 };
 
-//Vrati true, pokud jsou na sebe vektory kolme
-bool are_vectors_perpendicular(Vektor2 a, Vektor2 b)
-{
-       return a.x*b.x+a.y*b.y == 0;  
-}
 
 bool is_right_angle_triangle(float a, float b, float c)
 {
